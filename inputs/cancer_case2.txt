@@ -1,0 +1,21 @@
+radius_mean: 8.0
+texture_mean: 8.0
+perimeter_mean: 50.0
+area_mean: 200.0
+smoothness_mean: 0.05
+compactness_mean: 0.02
+concavity_mean: 0.01
+concave points_mean: 0.005
+symmetry_mean: 0.10
+fractal_dimension_mean: 0.04
+
+radius_worst: 9.0
+texture_worst: 9.0
+perimeter_worst: 60.0
+area_worst: 250.0
+smoothness_worst: 0.06
+compactness_worst: 0.03
+concavity_worst: 0.01
+concave points_worst: 0.005
+symmetry_worst: 0.12
+fractal_dimension_worst: 0.04

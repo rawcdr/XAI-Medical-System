@@ -1,0 +1,17 @@
+BMI: 34.5
+Smoking: Yes
+AlcoholDrinking: Yes
+Stroke: Yes
+PhysicalHealth: 20
+MentalHealth: 15
+DiffWalking: Yes
+Sex: Male
+AgeCategory: 70-74
+Race: White
+Diabetic: Yes
+PhysicalActivity: No
+GenHealth: Poor
+SleepTime: 4
+Asthma: Yes
+KidneyDisease: Yes
+SkinCancer: Yes

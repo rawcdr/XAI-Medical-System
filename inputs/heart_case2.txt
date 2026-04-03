@@ -1,0 +1,17 @@
+BMI: 22.0
+Smoking: No
+AlcoholDrinking: No
+Stroke: No
+PhysicalHealth: 0
+MentalHealth: 0
+DiffWalking: No
+Sex: Female
+AgeCategory: 25-29
+Race: Asian
+Diabetic: No
+PhysicalActivity: Yes
+GenHealth: Excellent
+SleepTime: 8
+Asthma: No
+KidneyDisease: No
+SkinCancer: No
