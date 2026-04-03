@@ -33,7 +33,7 @@ def train_nn(X_train, y_train, dataset_type):
     )
     class_weights = {0: weights[0], 1: weights[1]}
 
-    # 🔥 Model architecture
+    # Model architecture
     model = Sequential([
     Input(shape=(X_train.shape[1],)),
     Dense(128, activation='relu'),
