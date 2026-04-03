@@ -35,7 +35,7 @@ def train_nn(X_train, y_train, dataset_type):
 
     # 🔥 Model architecture
     model = Sequential([
-    Input(shape=(X_train.shape[1],)),   # ✅ FIXED
+    Input(shape=(X_train.shape[1],)),
     Dense(128, activation='relu'),
     Dense(64, activation='relu'),
     Dense(32, activation='relu'),
