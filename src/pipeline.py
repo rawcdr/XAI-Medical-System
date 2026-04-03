@@ -18,7 +18,7 @@ def save_models(log_model, nn_model, dataset_type):
     # Logistic Regression
     joblib.dump(log_model, f"models/{dataset_type}_logistic.pkl")
 
-    # Neural Network (Keras format ✅)
+    # Neural Network (Keras format)
     nn_model.save(f"models/{dataset_type}_nn.keras")
 
     print(f"{dataset_type.upper()} models saved successfully!")
