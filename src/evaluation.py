@@ -61,7 +61,7 @@ def evaluate(model, X_test, y_test, dataset_name):
 
     print("ROC-AUC Score:", auc)
 
-    # 🔥 NEW
+    #  NEW
     plot_confusion(y_test, pred, dataset_name)
     plot_roc(y_test, probs, dataset_name)
 
@@ -84,7 +84,7 @@ def evaluate_nn(model, X_test, y_test, dataset_name):
 
     print("ROC-AUC Score:", auc)
 
-    # 🔥 NEW
+    #  NEW
     plot_confusion(y_test, pred, dataset_name)
     plot_roc(y_test, probs, dataset_name)
 
