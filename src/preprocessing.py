@@ -60,7 +60,7 @@ def preprocess(df, dataset_type):
     print("After preprocessing shape:", X.shape)
 
     # =========================
-    # 🔥 SAVE COLUMN STRUCTURE
+    #  SAVE COLUMN STRUCTURE
     # =========================
     os.makedirs("models", exist_ok=True)
     joblib.dump(X.columns.tolist(), f"models/{dataset_type}_columns.pkl")
@@ -72,7 +72,7 @@ def preprocess(df, dataset_type):
     X_scaled = scaler.fit_transform(X)
 
     # =========================
-    # 🔥 SAVE SCALER
+    #  SAVE SCALER
     # =========================
     joblib.dump(scaler, f"models/{dataset_type}_scaler.pkl")
 
