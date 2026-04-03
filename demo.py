@@ -93,7 +93,7 @@ def preprocess_input(data_dict, columns):
 # =========================
 def predict(log_model, nn_model, X, dataset_type):
 
-    # 🔥 USE LOGISTIC FOR ALL DATASETS
+    #  USE LOGISTIC FOR ALL DATASETS
     prob = log_model.predict_proba(X)[0][1]
 
     # dataset-specific thresholds
@@ -150,7 +150,7 @@ def get_top_factors(log_model, X, feature_names, prediction):
         if count == 3:
             break
 
-    # 🔥 FALLBACK (important)
+    #  FALLBACK (important)
     if count == 0:
         results.append("Model prediction is based on combined weak feature effects.")
 
